@@ -8,7 +8,7 @@ This kata has been written using different versions of Java
 - Java 8 (Maven module [kata8](kata8))
 - Java 11 (Maven module [kata11](kata11))
 - Java 17 (Maven module [kata17](kata17))
-- Java 17 + preview feature (Maven module [kata17-preview](kata1fix typo7-preview))
+- Java 17 + preview feature (Maven module [kata17-preview](kata17-preview))
 
 So you can start with a specific version and rewrite the code up to the point where you are using Java 17
 with the preview features enabled.
