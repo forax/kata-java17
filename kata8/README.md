@@ -4,7 +4,7 @@ version of the Kata using Java 8 features
 ## Toward Java 11
 
 1. [JEP 269](https://openjdk.java.net/jeps/269) introduces convenient factory methods to create
-   unmodifiable list and map. Rewrite `ExprTest` to use `List.of(...)` and `Map.of(...)`
+   unmodifiable lists and maps. Rewrite `ExprTest` to use `List.of(...)` and `Map.of(...)`
    and remove the class `TestHelper` which is not needed anymore.
    
 2. Java 11 adds a method
