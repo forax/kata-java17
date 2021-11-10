@@ -9,8 +9,11 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>kata</module>
-        <module>katasolution</module>
+        <module>kata7</module>
+        <module>kata8</module>
+        <module>kata11</module>
+        <module>kata17</module>
+        <module>kata17-preview</module>
     </modules>
 
     <properties>
