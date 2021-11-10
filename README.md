@@ -18,7 +18,7 @@ Each expression is implemented by a Java class, here is an example of usage
 ```
 
 An expression can also be constructed from a string in prefix form, operator first followed by the operands,
-(for example, `"+ 2 * 3, 7"` is equivalent to `(2 + 3 * 7)`) using the method `parse(text)`.
+(for example, `"+ 2 * 3 7"` is equivalent to `(2 + 3 * 7)`) using the method `parse(text)`.
 
 Once an expression is constructed, we can ask for a string representation using `toString()` or an evaluation
 using `eval(variableMap)`. The `variableMap` associate a name of a variable to its value.
