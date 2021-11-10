@@ -1,18 +1,6 @@
 # kata-java17
 A kata to transform an existing program to use Java 17 new features
 
-### Kata Java versions
-
-This kata has been written using different versions of Java
-- Java 7 (Maven module [kata7](kata7))
-- Java 8 (Maven module [kata8](kata8))
-- Java 11 (Maven module [kata11](kata11))
-- Java 17 (Maven module [kata17](kata17))
-- Java 17 + preview feature (Maven module [kata17-preview](kata17-preview))
-
-So you can start with a specific version and rewrite the code up to the point where you are using Java 17
-with the preview features enabled.
-
 ### Expression tree
 
 The idea of this kata is to implement a simple expression tree able to represent the following expressions
@@ -41,3 +29,15 @@ using `eval(variableMap)`. The `variableMap` associate a name of a variable to i
   int result = expr.eval(Map.of("x", 3));
   System.out.println(result);  // 25
 ```
+
+### Kata Java versions
+
+This kata has been written using different versions of Java
+- Java 7 (Maven module [kata7](kata7))
+- Java 8 (Maven module [kata8](kata8))
+- Java 11 (Maven module [kata11](kata11))
+- Java 17 (Maven module [kata17](kata17))
+- Java 17 + preview feature (Maven module [kata17-preview](kata17-preview))
+
+So you can start with a specific version and rewrite the code up to the point where you are using Java 17
+with the preview features enabled.
