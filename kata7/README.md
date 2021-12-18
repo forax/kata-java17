@@ -26,7 +26,7 @@ uses the previous versions of JUnit, JUnit 4.
 
 4. In `Var.eval()`, instead of using `Map.get()`, we can use
    [Map.getOrDefault()](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Map.html#getOrDefault(java.lang.Object,V))
-   to simplify a littel bit the code.
+   to simplify a little bit the code.
 
 Once all these refactoring are done, you can continue with the [migration to Java 11](../kata11/README.md).
 
